@@ -1,0 +1,17 @@
+{
+  "name": "EyeOnYou",
+  "description": "This is the front end code to be able to do eyeOnYou visual unit tests.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/MikkoH/eyeOnYou",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "http://www.mikkoh.com"
+  },
+  "dependencies": {
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "grunt-browserify": "~1.2.9",
+    "browserify": "~2.34.3"
+  }
+}
