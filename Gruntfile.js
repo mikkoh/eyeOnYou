@@ -11,11 +11,17 @@ module.exports = function( grunt ) {
 
 					standalone: 'eyeonyou'
 				}
+			},
+
+			example: {
+				src: [ 'example/main.js' ],
+				dest: 'example/bundled.js'
 			}
 		}
 	});
 
 	grunt.loadNpmTasks( 'grunt-browserify' );
 
+	grunt.registerTask( 'example', [ 'browserify:example' ] )
 	grunt.registerTask( 'default', [ 'browserify:standalone' ] );
 };
